@@ -14,7 +14,7 @@ services:
     depends_on:
       - db
     ports:
-      - ${APP_PORT}:3000
+      - ${APP_PORT}:8080
   # posttgresql
   db:
     container_name: ${DB_HOST}
